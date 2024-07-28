@@ -1,0 +1,7 @@
+1. mulinma project eka patn gatte blank solution ekk widiyat, blank solution kyla search krla gatta eka 
+
+2. eta passe e blank project eke solution eka uda click krla aluth project ekk patan gannwa asp.net core web app project ekk widiyat
+
+3. eta passe aye solution eka uda right click krla new project ekk patn gannwa class libarary project ekk , eka class libarary kiyl search krma udinma ena eki
+
+4. eta passe identity manager service project ekat ghilla eke dependancies kiyla thiya eka uda right click krla add project references ekat giya , ethanin api hdpu shared class library kiyla class libarary project eke refrenece ekk widiyt dunna 
