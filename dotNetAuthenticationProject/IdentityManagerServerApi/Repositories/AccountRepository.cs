@@ -2,6 +2,11 @@
 using IdentityManagerServerApi.Data.Service;
 using IdentityManagerServerApi.Models.DTOs;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using System.ComponentModel.DataAnnotations;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace IdentityManagerServerApi.Repositories
 {
@@ -44,9 +49,46 @@ namespace IdentityManagerServerApi.Repositories
 
         }
 
-        public Task<ServiceResponse.LoginResponse> LoginAccount(LoginDTO loginDTO)
+        public async Task<ServiceResponse.LoginResponse> LoginAccount(LoginDTO loginDTO)
         {
-            throw new NotImplementedException();
+            if (loginDTO == null)
+                return new ServiceResponse.LoginResponse(false, null!, "Login Container is Empty");
+
+            var getUser = await userManager.FindByEmailAsync(loginDTO.Email);
+            if(getUser is null)
+                return new ServiceResponse.LoginResponse(false, null!, "User not found");
+
+            bool checkUserPasswords = await userManager.CheckPasswordAsync(getUser, loginDTO.Password);
+            if (!checkUserPasswords)
+                return new ServiceResponse.LoginResponse(false, null!, "Invalid email/password");
+
+            var getUserRole = await userManager.GetRolesAsync(getUser);
+            var userSession = new UserSession(getUser.Id, getUser.Name, getUser.Email, getUserRole.First());
+            string token = GenerateToken(userSession);
+            return new ServiceResponse.LoginResponse(true, token!, "Login succeeded");
+            
+        }
+
+        private string GenerateToken(UserSession user)
+        {
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]!));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            var userClaims = new[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
+                new Claim(ClaimTypes.Name, user.Name),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, user.Role)
+            };
+            var token = new JwtSecurityToken(
+                issuer: config["Jwt:Issuer"],
+                audience: config["Jwt:Audience"],
+                claims: userClaims,
+                expires: DateTime.Now.AddDays(1),
+                signingCredentials: credentials
+                );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }

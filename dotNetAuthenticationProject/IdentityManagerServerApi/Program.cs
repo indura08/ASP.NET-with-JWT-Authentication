@@ -1,4 +1,6 @@
 using IdentityManagerServerApi.Data;
+using IdentityManagerServerApi.Data.Service;
+using IdentityManagerServerApi.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -61,6 +63,8 @@ builder.Services.AddSwaggerGen(options =>
 
 });
 
+builder.Services.AddScoped<IUserAccount, AccountRepository>();
+
 //Ending
 
 var app = builder.Build();
@@ -82,6 +86,17 @@ app.UseRouting();
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+//start swagger ui eka setup krgnna widiyai meka 
+app.UseSwagger();
+
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    c.RoutePrefix = string.Empty; // Serve Swagger UI at the app's root
+});
+
+//end swagger ui eka setup krn iwai methanin
 
 app.MapControllerRoute(
     name: "default",
