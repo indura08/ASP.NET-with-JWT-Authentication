@@ -9,4 +9,3 @@ namespace IdentityManagerServerApi.Data.Service
     }
 }
 
-//nwattuwe 37:14
