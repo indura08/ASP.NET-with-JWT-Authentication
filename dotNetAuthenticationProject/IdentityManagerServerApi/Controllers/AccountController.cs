@@ -28,7 +28,7 @@ namespace IdentityManagerServerApi.Controllers
 
         [HttpGet("user")]
         [Authorize(Roles = "User")]
-        public IActionResult sayHello()
+        public IActionResult SayHello()
         {
             return Ok("hello world this site only can be accessed with a user account");
         }
