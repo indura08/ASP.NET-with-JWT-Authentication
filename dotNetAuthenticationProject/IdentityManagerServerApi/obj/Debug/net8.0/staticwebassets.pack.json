@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IdentityManagerServerApi.bundle.scp.css",
-      "PackagePath": "staticwebassets\\IdentityManagerServerApi.bundle.scp.css"
+      "PackagePath": "staticwebassets\\IdentityManagerServerApi.7ra83uxlp1.bundle.scp.css"
     },
     {
       "Id": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IdentityManagerServerApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IdentityManagerServerApi.Microsoft.AspNetCore.StaticWebAssets.props",

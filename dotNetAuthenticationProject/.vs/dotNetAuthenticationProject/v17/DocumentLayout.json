@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|e:\\.net 8 email verification mini project\\dotnetauthenticationproject\\identitymanagerserverapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|solutionrelative:identitymanagerserverapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|e:\\.net 8 email verification mini project\\dotnetauthenticationproject\\identitymanagerserverapi\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|solutionrelative:identitymanagerserverapi\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|e:\\.net 8 email verification mini project\\dotnetauthenticationproject\\identitymanagerserverapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|solutionrelative:identitymanagerserverapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|e:\\.net 8 email verification mini project\\dotnetauthenticationproject\\identitymanagerserverapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|solutionrelative:identitymanagerserverapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|e:\\.net 8 email verification mini project\\dotnetauthenticationproject\\identitymanagerserverapi\\models\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|solutionrelative:identitymanagerserverapi\\models\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|e:\\.net 8 email verification mini project\\dotnetauthenticationproject\\identitymanagerserverapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|solutionrelative:identitymanagerserverapi\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|e:\\.net 8 email verification mini project\\dotnetauthenticationproject\\identitymanagerserverapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|solutionrelative:identitymanagerserverapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|e:\\.net 8 email verification mini project\\dotnetauthenticationproject\\identitymanagerserverapi\\models\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|solutionrelative:identitymanagerserverapi\\models\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|e:\\.net 8 email verification mini project\\dotnetauthenticationproject\\identitymanagerserverapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{660D4A25-FFBF-4D32-99E3-2A8B8B398FF4}|IdentityManagerServerApi\\IdentityManagerServerApi.csproj|solutionrelative:identitymanagerserverapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,55 +42,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "IdentityManagerServerApi\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "IdentityManagerServerApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T16:05:42.712Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityManagerServerApi\\appsettings.json",
+              "ToolTip": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\appsettings.json",
+              "RelativeToolTip": "IdentityManagerServerApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-05T14:59:08.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "IdentityManagerServerApi\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "IdentityManagerServerApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-05T14:54:26.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "IdentityManagerServerApi\\Data\\ApplicationUser.cs",
               "ToolTip": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Data\\ApplicationUser.cs",
               "RelativeToolTip": "IdentityManagerServerApi\\Data\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T15:42:38.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AccountController.cs",
               "DocumentMoniker": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "IdentityManagerServerApi\\Controllers\\AccountController.cs",
               "ToolTip": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Controllers\\AccountController.cs",
               "RelativeToolTip": "IdentityManagerServerApi\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwB4AAAAnAAAA",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T14:26:49.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityManagerServerApi\\Program.cs",
+              "ToolTip": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Program.cs",
+              "RelativeToolTip": "IdentityManagerServerApi\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwFIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T14:03:47.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "IdentityManagerServerApi\\Repositories\\AccountRepository.cs",
               "ToolTip": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Repositories\\AccountRepository.cs",
               "RelativeToolTip": "IdentityManagerServerApi\\Repositories\\AccountRepository.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAYwEMAAABWAAAA",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwFcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T12:56:31.686Z",
               "EditorCaption": ""
@@ -91,22 +143,9 @@
               "RelativeDocumentMoniker": "IdentityManagerServerApi\\Models\\DTOs\\UserSession.cs",
               "ToolTip": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Models\\DTOs\\UserSession.cs",
               "RelativeToolTip": "IdentityManagerServerApi\\Models\\DTOs\\UserSession.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABVAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T19:51:12.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Program.cs",
-              "RelativeDocumentMoniker": "IdentityManagerServerApi\\Program.cs",
-              "ToolTip": "E:\\.net 8 email verification mini project\\dotNetAuthenticationProject\\IdentityManagerServerApi\\Program.cs",
-              "RelativeToolTip": "IdentityManagerServerApi\\Program.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T14:03:47.232Z",
               "EditorCaption": ""
             }
           ]

@@ -149,3 +149,6 @@ E:\.net 8 email verification mini project\dotNetAuthenticationProject\IdentityMa
 E:\.net 8 email verification mini project\dotNetAuthenticationProject\IdentityManagerServerApi\obj\Debug\net8.0\ref\IdentityManagerServerApi.dll
 E:\.net 8 email verification mini project\dotNetAuthenticationProject\IdentityManagerServerApi\bin\Debug\net8.0\MySqlConnector.dll
 E:\.net 8 email verification mini project\dotNetAuthenticationProject\IdentityManagerServerApi\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\.net 8 email verification mini project\dotNetAuthenticationProject\IdentityManagerServerApi\bin\Debug\net8.0\IdentityManagerServerApi.staticwebassets.endpoints.json
+E:\.net 8 email verification mini project\dotNetAuthenticationProject\IdentityManagerServerApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\.net 8 email verification mini project\dotNetAuthenticationProject\IdentityManagerServerApi\obj\Debug\net8.0\staticwebassets\msbuild.IdentityManagerServerApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

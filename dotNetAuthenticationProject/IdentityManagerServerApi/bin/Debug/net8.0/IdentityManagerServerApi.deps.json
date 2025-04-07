@@ -988,7 +988,10 @@
       },
       "SharedClassLibrary/1.0.0": {
         "runtime": {
-          "SharedClassLibrary.dll": {}
+          "SharedClassLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

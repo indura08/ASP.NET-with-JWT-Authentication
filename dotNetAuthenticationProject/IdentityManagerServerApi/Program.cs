@@ -54,7 +54,7 @@ builder.Services.AddAuthentication(options =>   //What it does: It sets up the a
 
         ValidIssuer = builder.Configuration["Jwt:Issuer"],          //Purpose: This sets the expected issuer value. What it does: It gets the expected issuer value from the app's configuration (usually in appsettings.json). Simpler Terms: It's like saying, "Only accept ID cards issued by this specific authority."
 
-        ValidAudience = builder.Configuration["Jwt: Audience"],    //Purpose: This sets the expected audience value. What it does: It gets the expected audience value from the app's configuration. Simpler Terms: It's like saying, "This ID card should only be valid for people coming to this specific venue." 
+        ValidAudience = builder.Configuration["Jwt:Audience"],    //Purpose: This sets the expected audience value. What it does: It gets the expected audience value from the app's configuration. Simpler Terms: It's like saying, "This ID card should only be valid for people coming to this specific venue." 
 
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))      //Purpose: This sets the key used to sign the token. What it does: It gets the signing key from the app's configuration and creates a security key from it.Simpler Terms: It's like getting the secret seal used to verify the authenticity of the ID cards.
     };
